@@ -1,0 +1,99 @@
+
+body{
+    margin: 0cap;
+    padding: 0ch;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: pink;
+    color:blue;
+    padding: 1rem;
+    position: fixed;
+    width: 250;
+    top: 0ch;
+    z-index: unset;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0cqmax;
+}
+
+header nav ul li a {
+    color:white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 4rem 1rem;
+    margin-top: 5rem; 
+}
+
+section#home {
+    background-color: goldenrod;
+    text-align: center;
+}
+
+section#about {
+    text-align: center;
+}
+
+section#projects .project {
+    margin: 2rem 0;
+}
+
+section#projects .project img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.5rem;
+}
+
+input, form textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+button {
+    padding: 0.75rem;
+    background-color: #333;
+    color: green;
+    border: violet;
+    cursor: alias;
+}
+
+button:hover {
+    background-color: red;
+}
+footer{
+    background-color: gray;
+    
+}
